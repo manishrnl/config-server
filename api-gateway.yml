@@ -17,7 +17,7 @@ spring:
             - name: LoggingOrdersFilter
             - name: Authentication
               args:
-                isEnabled: true
+                Enabled: true
         #            - name: Authorization
         #              args:
         #                allowedRoles: ADMIN, SUPER_ADMIN
@@ -30,7 +30,7 @@ spring:
             - AddRequestHeader=X-Custom-Header, Anuj
             - name: Authentication
               args:
-                isEnabled: true
+                Enabled: true
 eureka:
   client:
     service-url:
